@@ -1,6 +1,7 @@
 # tfm k8s
 Goofin' with k8s and terraform
 
+*assumes docker/docker desktop already installed*
 #  Install / setup steps
 1. brew install kind
 2. curl https://raw.githubusercontent.com/hashicorp/learn-terraform-deploy-nginx-kubernetes-provider/master/kind-config.yaml --output kind-config.yaml
