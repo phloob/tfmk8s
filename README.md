@@ -4,7 +4,6 @@ Goofin' with k8s and terraform
 *assumes docker/docker desktop already installed*
 #  Install / setup steps
 1. brew install kind
-2. curl https://raw.githubusercontent.com/hashicorp/learn-terraform-deploy-nginx-kubernetes-provider/master/kind-config.yaml --output kind-config.yaml
 3. kind create cluster --name terraform-learn --config kind-config.yaml
 4. kind get clusters
 5. kubectl cluster-info --context kind-terraform-learn
