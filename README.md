@@ -3,6 +3,7 @@ Goofin' with k8s and terraform
 
 # Guide
 https://learn.hashicorp.com/tutorials/terraform/kubernetes-provider
+
 *assumes docker/docker desktop already installed*
 #  Install / setup steps
 1. brew install kind
