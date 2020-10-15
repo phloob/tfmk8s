@@ -26,5 +26,6 @@ https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs
 # Potential goals?
 
 - add webpage content for nginx containers?
-    https://kubernetes.io/docs/concepts/containers/images/
+
+  -  https://kubernetes.io/docs/concepts/containers/images/
 - tiered clusters with different webapp version?
