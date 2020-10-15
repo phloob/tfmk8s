@@ -1,10 +1,6 @@
-# terraform {
-#   required_providers {
-#     kubernetes = {
-#       source = "hashicorp/kubernetes"
-#     }
-#   }
-# }
+#
+# TERRAFORM CODE TO DEPLOY K8S CLUSTER WITH NGINX
+#
 
 provider "kubernetes" {}
 
@@ -17,6 +13,7 @@ resource "kubernetes_deployment" "nginx" {
   }
 
   spec {
+      # Number of containers
     replicas = 4
     selector {
       match_labels = {
