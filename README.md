@@ -35,6 +35,7 @@ https://hub.docker.com/_/nginx
   -  https://kubernetes.io/docs/concepts/containers/images/
 - tiered clusters with different webapp version?
 
+Long term: immutable static webpage infrastructure
 
 # Next steps:
 
