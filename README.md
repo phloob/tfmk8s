@@ -6,20 +6,17 @@ https://learn.hashicorp.com/tutorials/terraform/kubernetes-provider
 *assumes docker/docker desktop already installed*
 #  Install / setup steps
 1. brew install kind
-3. kind create cluster --name terraform-learn --config kind-config.yaml
-4. kind get clusters
-5. kubectl cluster-info --context kind-terraform-learn
-6. mkdir learn-terraform-deploy-nginx-kubernetes
-7. cd learn-terraform-deploy-nginx-kubernetes
-8. touch kubernetes.tf <content>
-9. kubectl config current-context
-10. kubectl config use-context kind-terraform-learn
-11. terraform init
-12. terraform apply
-13. kubectl get deployments
-14. kubectl get services
-15. terraform destroy
-16. kind delete cluster --name terraform-learn
+2. kind create cluster --name terraform-learn --config kind-config.yaml
+3. kind get clusters
+4. kubectl cluster-info --context kind-terraform-learn
+5. kubectl config current-context
+6. kubectl config use-context kind-terraform-learn
+7. terraform init
+8. terraform apply
+9. kubectl get deployments
+10. kubectl get services
+11. terraform destroy
+12. kind delete cluster --name terraform-learn
 
 # Documentation
 https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs
