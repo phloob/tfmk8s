@@ -28,6 +28,8 @@ https://docs.docker.com/registry/
 
 https://hub.docker.com/_/nginx
 
+https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/
+
 # Potential goals?
 
 - add webpage content for nginx containers?
