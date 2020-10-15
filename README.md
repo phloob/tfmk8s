@@ -1,6 +1,8 @@
 # tfm k8s
 Goofin' with k8s and terraform
 
+# Guide
+https://learn.hashicorp.com/tutorials/terraform/kubernetes-provider
 *assumes docker/docker desktop already installed*
 #  Install / setup steps
 1. brew install kind
@@ -19,8 +21,12 @@ Goofin' with k8s and terraform
 15. terraform destroy
 16. kind delete cluster --name terraform-learn
 
+# Documentation
+https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs
 
-# Potential goes?
+
+# Potential goals?
 
 - add webpage content for nginx containers?
+    https://kubernetes.io/docs/concepts/containers/images/
 - tiered clusters with different webapp version?
