@@ -18,3 +18,9 @@ Goofin' with k8s and terraform
 14. kubectl get services
 15. terraform destroy
 16. kind delete cluster --name terraform-learn
+
+
+# Potential goes?
+
+- add webpage content for nginx containers?
+- tiered clusters with different webapp version?
