@@ -22,6 +22,9 @@ https://learn.hashicorp.com/tutorials/terraform/kubernetes-provider
 # Documentation
 https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs
 
+http://nginx.org/en/docs/beginners_guide.html
+
+https://docs.docker.com/registry/
 
 # Potential goals?
 
@@ -29,3 +32,12 @@ https://registry.terraform.io/providers/hashicorp/kubernetes/latest/docs
 
   -  https://kubernetes.io/docs/concepts/containers/images/
 - tiered clusters with different webapp version?
+
+
+# Next steps:
+
+1. Setup docker registry for app container image
+2. Create new repo(?) for container images?
+
+    - Use image = "nginx:1.7.8" as a boilerplate 
+3. Start with a basic edit to the html file /root/data
