@@ -44,3 +44,5 @@ Long term: immutable static webpage infrastructure
 
     - Use image = "nginx:1.7.8" as a boilerplate 
 3. Start with a basic edit to the html file /root/data
+4. Add CI/CD!
+5. Deploy into cloud environment?
