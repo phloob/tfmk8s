@@ -26,6 +26,8 @@ http://nginx.org/en/docs/beginners_guide.html
 
 https://docs.docker.com/registry/
 
+https://hub.docker.com/_/nginx
+
 # Potential goals?
 
 - add webpage content for nginx containers?
