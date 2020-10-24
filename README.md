@@ -30,6 +30,14 @@ https://hub.docker.com/_/nginx
 
 https://www.docker.com/blog/how-to-use-the-official-nginx-docker-image/
 
+# React App on NGINX?
+
+https://medium.com/@timmykko/deploying-create-react-app-with-nginx-and-ubuntu-e6fe83c5e9e7
+
+# Facebook's create React App boilerplate
+
+https://github.com/facebook/create-react-app
+
 # Potential goals?
 
 - add webpage content for nginx containers?
